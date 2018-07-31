@@ -1,5 +1,6 @@
 var PokeService = {
     API: {
+        //api.myjson.com/bins/1clnog
         url: '//dev.treinaweb.com.br/pokeapi/',
         get: (url) => {
             return fetch(`${PokeService.API.url}${url}`)
